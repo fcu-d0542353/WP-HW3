@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Celsiue VS. Fahrenheit</title>
+		<script type = "text/javascript">
+			var cel;
+			var celValue;
+			
+			cel = window.prompt("請輸入攝氏溫度:");
+			celValue = parseInt(cel);
+			function calculate (celValue)
+			{
+				return celValue*9/5 +32;
+			}
+			
+			document.writeln("<h1>攝氏溫度:"+cel+"℃ </h1>");
+			document.writeln("<h1>華氏溫度:"+calculate(celValue)+"℉ </h1>");
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
